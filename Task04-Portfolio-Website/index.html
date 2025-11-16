@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> MOKIBUL HOQUE | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo"> MOKIBUL HOQUE</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I’m</p>
+        <h1>Your Name</h1>
+        <h2>Front-End / Web Developer</h2>
+        <p class="hero-summary">
+          I build responsive, user-friendly web interfaces using HTML, CSS,
+          JavaScript and modern tools.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- replace src with your own photo -->
+        <div class="photo-circle">
+          <img src="images/profile.jpg" alt="Your Name" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I’m a web developer with a strong interest in building clean and
+            interactive user interfaces. I enjoy turning ideas into real
+            applications using modern web technologies.
+          </p>
+          <p>
+            I focus on writing maintainable, responsive code and continuously
+            improving my skills through projects and real-world practice.
+          </p>
+        </div>
+        <div class="about-details">
+          <h3>Education</h3>
+          <ul>
+            <li><strong> B.Tech in computer science & engineering </strong><br /> ASSAM DOWNTOWN UNIVERSITY, 2022-26</li>
+          </ul>
+          <h3>Experience</h3>
+          <ul>
+            <li><strong>Web Development Intern</strong><br />Company / Program · 2025</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Front-End</h3>
+          <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>Git & GitHub, VS Code, Chrome DevTools</p>
+        </div>
+        <div class="skill-card">
+          <h3>Other</h3>
+          <p>Problem Solving, UI Basics, Team Collaboration</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Responsive Landing Page</h3>
+          <p>
+            A landing page with a fixed navigation bar that changes style on scroll
+            and supports mobile devices.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Stopwatch Web App</h3>
+          <p>
+            Stopwatch with start, pause, reset, and lap features built using
+            vanilla JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>
+            Browser-based two-player Tic-Tac-Toe with win detection and score
+            tracking.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p>
+            Want to discuss a project, collaboration, or opportunity? Reach out
+            using the form or directly via email.
+          </p>
+          <ul class="contact-info">
+            <li><strong>Email:</strong> mokibulislam129@gmail.com</li>
+            <li><strong>Location:</strong> City, Country</li>
+            <li><strong>LinkedIn:</strong> <a href="#" target="_blank">Your Profile</a></li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
